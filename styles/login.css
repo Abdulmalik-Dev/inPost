@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Estonia", "cursive";
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Zen Antique", serif;
+}
+
+:root {
+  --main-color: #e91e63;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+form label {
+  margin-bottom: 20px;
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+form input {
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (min-width: 2000px) {
+  form input {
+    height: 200px;
+  }
+}
+@media (max-width: 600px) {
+  form input {
+    width: 90%;
+  }
+}
+form div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  form div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+form div input {
+  margin-right: 10px;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  width: 20%;
+  cursor: pointer;
+}
+
+@media (min-width: 2000px) {
+  form div input {
+    height: 80px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  form div input {
+    width: 50%;
+  }
+}
+form div p {
+  color: var(--main-color);
+  line-height: 2;
+  cursor: pointer;
+}
+
+.worning {
+  text-align: center;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=login.css.map */

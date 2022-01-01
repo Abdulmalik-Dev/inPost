@@ -1,0 +1,66 @@
+.post-box {
+  border: 2px solid var(--main-color);
+  padding: 10px;
+  text-align: center;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+@media (min-width: 1200px) {
+  .post-box {
+    width: 1200px;
+    margin: 20px auto;
+  }
+}
+.post-box h3 {
+  color: var(--main-color);
+}
+
+.child-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.post-box .child-box h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.post-box .child-box p {
+  color: #424242;
+  line-height: 1.6;
+}
+
+.post-box .child-box p:last-of-type {
+  color: var(--main-color);
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+.post-box .child-box .comment {
+  border: 2px solid var(--main-color);
+  padding: 20px 10px;
+  margin: 0 auto 10px;
+  display: none;
+}
+
+.post-box .child-box .comment h4 {
+  color: var(--main-color);
+}
+
+.post-box .child-box .comment p {
+  color: #424242;
+}
+
+.main {
+  color: var(--main-color);
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=thePost.css.map */
